@@ -1,0 +1,4 @@
+<script>
+  const target = new URLSearchParams(window.location.search).get('url');
+  if (target) window.location.href = decodeURIComponent(target);
+</script>
